@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-05-05T14:39:48.138Z" agent="5.0 (iPad; CPU OS 13_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/81.0.4044.124 Mobile/15E148 Safari/604.1" etag="IQpqPjOqMqJ2jzFup0PG" version="13.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-05-05T14:42:02.145Z" agent="5.0 (iPad; CPU OS 13_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/81.0.4044.124 Mobile/15E148 Safari/604.1" etag="IxiE91-CjqdVyYHEARGm" version="13.0.7" type="github">
   <diagram id="QSgkhsJ8-CCZ3Fh4raby" name="第 1 页">
-    <mxGraphModel dx="439" dy="1032" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="658" dy="1548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -205,6 +205,12 @@
           <mxGeometry x="-0.003" y="-1" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="DjlL4Gagi0AbFThIr3c9-72" value="L4" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=-10;" vertex="1" parent="1">
+          <mxGeometry x="550" y="345" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DjlL4Gagi0AbFThIr3c9-73" value="socket" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=-10;" vertex="1" parent="1">
+          <mxGeometry x="550" y="215" width="150" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
