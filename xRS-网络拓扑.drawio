@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-05-06T12:48:42.689Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36" etag="ezA_d-eMvY4hSGzPdOCf" version="13.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-05-07T05:51:11.481Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36" etag="s-iAm0g-HxJQ0FPndhyE" version="13.0.6" type="github">
   <diagram id="UCOVGmrTwVSSN8ZXNxZm" name="第 1 页">
-    <mxGraphModel dx="946" dy="1760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="1711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -44,16 +44,16 @@
           <mxGeometry x="300" y="100" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="3ddTQeFGDiyhyXyo14fi-17" value="CIP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="400" width="70" height="20" as="geometry" />
+          <mxGeometry x="270" y="510" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3ddTQeFGDiyhyXyo14fi-18" value="RIP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="420" width="70" height="20" as="geometry" />
+          <mxGeometry x="270" y="530" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3ddTQeFGDiyhyXyo14fi-19" value="VIP/VPORT" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="440" width="70" height="20" as="geometry" />
+          <mxGeometry x="270" y="550" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3ddTQeFGDiyhyXyo14fi-20" value="RPORT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="480" width="70" height="20" as="geometry" />
+          <mxGeometry x="270" y="590" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3ddTQeFGDiyhyXyo14fi-22" value="VPORT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="10" width="70" height="20" as="geometry" />
@@ -62,19 +62,19 @@
           <mxGeometry x="300" y="210" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3ddTQeFGDiyhyXyo14fi-24" value="CPORT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="460" width="70" height="20" as="geometry" />
+          <mxGeometry x="270" y="570" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3ddTQeFGDiyhyXyo14fi-25" value="xRT&lt;br&gt;ingress" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="275" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3ddTQeFGDiyhyXyo14fi-26" value="xRT&lt;br&gt;egress" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="250" width="120" height="60" as="geometry" />
+          <mxGeometry x="560" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3ddTQeFGDiyhyXyo14fi-29" value="&lt;span&gt;VNI&lt;/span&gt;&lt;br&gt;&lt;span&gt;TTGW_VTEP_IP&lt;/span&gt;&lt;br&gt;&lt;span&gt;OUT_PORT&lt;/span&gt;&lt;br&gt;&lt;span&gt;VIP&lt;/span&gt;&lt;br&gt;&lt;span&gt;VPORT&lt;/span&gt;&lt;br&gt;&lt;span&gt;SRC&lt;/span&gt;&lt;br&gt;&lt;span&gt;DST&lt;/span&gt;&lt;br&gt;&lt;span&gt;SPORT&lt;/span&gt;&lt;br&gt;&lt;span&gt;DPORT&lt;br&gt;----------------------&lt;br&gt;VXLAN_DECAP&lt;br&gt;&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="320" width="110" height="220" as="geometry" />
         </mxCell>
         <mxCell id="3ddTQeFGDiyhyXyo14fi-30" value="&lt;span&gt;VNI&lt;/span&gt;&lt;br&gt;&lt;span&gt;TTGW_VTEP_IP&lt;/span&gt;&lt;br&gt;&lt;span&gt;OUT_PORT&lt;/span&gt;&lt;br&gt;&lt;span&gt;VIP&lt;/span&gt;&lt;br&gt;&lt;span&gt;VPORT&lt;/span&gt;&lt;br&gt;&lt;span&gt;SRC&lt;/span&gt;&lt;br&gt;&lt;span&gt;DST&lt;/span&gt;&lt;br&gt;&lt;span&gt;SPORT&lt;/span&gt;&lt;br&gt;&lt;span&gt;DPORT&lt;br&gt;--------------------&lt;br&gt;VXLAN_ENCAP&lt;br&gt;SNAT&lt;br&gt;&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="320" width="110" height="230" as="geometry" />
+          <mxGeometry x="530" y="335" width="110" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
