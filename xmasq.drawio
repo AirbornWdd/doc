@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2020-10-06T23:22:05.811Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" version="13.6.4" etag="LpO5a0UJyRGiLtNxSNfz" type="github"><diagram id="DaU-oCp6zvbaXiUb9bUy">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-06T23:37:33.549Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="tLTW3fjdEWiX5edypH83" version="13.6.4" type="github">
+  <diagram id="DaU-oCp6zvbaXiUb9bUy" name="第 1 页">
+    <mxGraphModel dx="786" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TBLh4uUDlI38wQqFFvVO-1" value="&lt;b&gt;tc ingress&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="190" y="620" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TBLh4uUDlI38wQqFFvVO-2" value="&lt;b&gt;tc egress&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="490" y="620" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TBLh4uUDlI38wQqFFvVO-3" value="&lt;b&gt;XDP&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="190" y="690" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TBLh4uUDlI38wQqFFvVO-4" value="&lt;b&gt;PRE_ROUTING&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="190" y="550" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TBLh4uUDlI38wQqFFvVO-5" value="&lt;b&gt;LOCAL_IN&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="190" y="480" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TBLh4uUDlI38wQqFFvVO-6" value="&lt;b&gt;FORWARD&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="340" y="550" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TBLh4uUDlI38wQqFFvVO-7" value="&lt;b&gt;LOCAL_OUT&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="490" y="480" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TBLh4uUDlI38wQqFFvVO-8" value="&lt;b&gt;POST_ROUTING&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="490" y="550" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TBLh4uUDlI38wQqFFvVO-10" value="&lt;b&gt;conntrack init&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="580" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TBLh4uUDlI38wQqFFvVO-11" value="&lt;b&gt;conntrack confirm&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640" y="580" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TBLh4uUDlI38wQqFFvVO-12" value="&lt;b&gt;DNAT&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="530" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TBLh4uUDlI38wQqFFvVO-13" value="&lt;b&gt;SNAT&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640" y="530" width="110" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
