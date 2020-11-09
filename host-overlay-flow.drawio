@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-08T06:04:47.251Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="mYoRCRN7nAusm3rKJHL0" version="13.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-09T04:38:19.667Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="NzUX39_NZG_wspyvVfsl" version="13.9.1" type="github">
   <diagram id="3ursiainwm2NqI8D566L" name="第 1 页">
     <mxGraphModel dx="2253" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -153,7 +153,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ei4ObJxhF2hAlxPR4WzS-19" value="from VXLAN_IP lookup &lt;br&gt;{default ... dev carma_vxlan0}&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZyEAs82IN00It2auvlQb-40">
+        <mxCell id="Ei4ObJxhF2hAlxPR4WzS-19" value="from VXLAN_IP lookup &lt;br&gt;{default &lt;b&gt;encap&lt;/b&gt;... dev carma_vxlan0}&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZyEAs82IN00It2auvlQb-40">
           <mxGeometry x="0.2549" relative="1" as="geometry">
             <mxPoint x="16.21" y="3" as="offset" />
           </mxGeometry>
@@ -194,6 +194,11 @@
             <mxPoint x="130" y="515" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Ei4ObJxhF2hAlxPR4WzS-21" value="oif = eth0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ei4ObJxhF2hAlxPR4WzS-7">
+          <mxGeometry x="0.1867" y="1" relative="1" as="geometry">
+            <mxPoint x="9" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Ei4ObJxhF2hAlxPR4WzS-8" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZyEAs82IN00It2auvlQb-29" target="ZyEAs82IN00It2auvlQb-11">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="170" y="470" as="sourcePoint" />
@@ -201,11 +206,6 @@
             <Array as="points">
               <mxPoint x="-45" y="510" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Ei4ObJxhF2hAlxPR4WzS-14" value="from ETH0_IP lookup&lt;br&gt;{default ... dev eth0}" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ei4ObJxhF2hAlxPR4WzS-8">
-          <mxGeometry x="-0.0169" y="1" relative="1" as="geometry">
-            <mxPoint x="-30.000000000000004" y="-49" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ei4ObJxhF2hAlxPR4WzS-9" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=1 4;exitX=0.645;exitY=0.017;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZyEAs82IN00It2auvlQb-29" target="ZyEAs82IN00It2auvlQb-39">
